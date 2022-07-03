@@ -29,6 +29,9 @@
 
 @media (min-width: 768px) {
 	.featured {
+		&__title {
+			font-size: 1.6rem;
+		}
 		&__box {
 			gap: 4rem;
 		}

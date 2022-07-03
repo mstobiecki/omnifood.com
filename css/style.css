@@ -382,6 +382,9 @@ body {
   }
 }
 @media (min-width: 768px) {
+  .featured__title {
+    font-size: 1.6rem;
+  }
   .featured__box {
     gap: 4rem;
   }
