@@ -31,3 +31,14 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.header {
+		&__logo {
+			height: 2.4rem;
+		}
+		&__burger {
+			font-size: 3.4rem;
+		}
+	}
+}

@@ -80,3 +80,13 @@ body {
 	color: $black-font;
 	@include button;
 }
+
+@media (min-width: 768px) {
+	.first-heading {
+		font-size: 3.5rem;
+	}
+	.orange-button,
+	.white-button {
+		font-size: 1.8rem;
+	}
+}
