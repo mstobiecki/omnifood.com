@@ -34,32 +34,27 @@ body {
 	padding: 4.6rem 2rem 4.6rem 2rem;
 }
 
-.grid {
-	display: grid;
-}
-
-.grid--1-cols {
-	grid-template-columns: 1fr;
-}
-
-.grid--2-cols {
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-	grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4-cols {
-	grid-template-columns: repeat(4, 1fr);
-}
-
 .first-heading {
 	margin-bottom: 2rem;
 	color: #222;
 	font-size: 3.2rem;
 	line-height: 1.2;
 	font-size: 700;
+}
+
+.second-heading {
+	margin-bottom: 4rem;
+	max-width: 120rem;
+	color: #222;
+	font-size: 2.8rem;
+	line-height: 1.2;
+	font-size: 700;
+}
+
+.third-heading {
+	margin-bottom: 2rem;
+	font-size: 2.2rem;
+	color: #222;
 }
 
 .orange-button {

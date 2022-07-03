@@ -36,32 +36,27 @@ body {
   padding: 4.6rem 2rem 4.6rem 2rem;
 }
 
-.grid {
-  display: grid;
-}
-
-.grid--1-cols {
-  grid-template-columns: 1fr;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .first-heading {
   margin-bottom: 2rem;
   color: #222;
   font-size: 3.2rem;
   line-height: 1.2;
   font-size: 700;
+}
+
+.second-heading {
+  margin-bottom: 4rem;
+  max-width: 120rem;
+  color: #222;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-size: 700;
+}
+
+.third-heading {
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  color: #222;
 }
 
 .orange-button {
@@ -399,4 +394,66 @@ body {
   .featured__image {
     height: 2.8rem;
   }
+}
+.how__text--special {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #e67e22;
+}
+.how__number {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ddd;
+}
+.how__description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.how__box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4rem 0;
+}
+.how__box::before {
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: #fdf2e9;
+  z-index: -2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.how__box::after {
+  width: 40%;
+  padding-bottom: 40%;
+  background-color: #fae5d3;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.how__image {
+  width: 30%;
+  z-index: 10;
 }/*# sourceMappingURL=style.css.map */
