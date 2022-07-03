@@ -380,4 +380,9 @@ body {
     margin-bottom: 2rem;
     font-size: 1.4rem;
   }
+}
+@media (min-width: 768px) {
+  .featured__box {
+    gap: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

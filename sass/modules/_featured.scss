@@ -26,3 +26,11 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.featured {
+		&__box {
+			gap: 4rem;
+		}
+	}
+}
