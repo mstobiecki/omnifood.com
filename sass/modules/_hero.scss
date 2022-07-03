@@ -12,13 +12,12 @@
 	}
 	&__customers {
 		display: flex;
-		align-items: center;
 		justify-content: center;
-		flex-wrap: wrap;
+		align-items: center;
+		flex-direction: column;
+		gap: 1rem;
 		&__box {
 			display: flex;
-			justify-content: center;
-			align-items: center;
 			&__image {
 				width: 5.4rem;
 				height: 5.4em;
@@ -28,13 +27,27 @@
 			}
 		}
 		&__text {
-			margin-top: 0.5rem;
 			margin-bottom: 2rem;
 			font-weight: 500;
 			font-size: 1.4rem;
 		}
 		&--special {
 			color: $dark-orange;
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.hero {
+		&__customers {
+			flex-direction: row;
+			gap: 2rem;
+			margin-bottom: 2rem;
+			&__text {
+				margin-top: 0;
+				margin-bottom: 0;
+				font-size: 1.5rem;
+			}
 		}
 	}
 }
