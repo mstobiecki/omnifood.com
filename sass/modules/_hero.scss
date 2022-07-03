@@ -1,9 +1,13 @@
 .hero {
+	.container {
+		@include grid;
+		@include grid--1-cols;
+	}
 	padding: 2.3rem 2rem;
 	background-color: $light-background;
 	text-align: center;
 	&__picture {
-		width: 100%;
+		width: 70%;
 	}
 	&__description {
 		margin-bottom: 2rem;
@@ -49,6 +53,9 @@
 				font-size: 1.5rem;
 			}
 		}
+		&__picture {
+			width: 70%;
+		}
 	}
 }
 
@@ -61,6 +68,39 @@
 			margin-bottom: 2rem;
 			font-size: 1.8rem;
 			line-height: 1.6;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.hero {
+		.container {
+			@include grid--2-cols;
+		}
+		padding-top: 4rem;
+		text-align: left;
+		&__picture {
+			width: 85%;
+		}
+		&__text {
+			padding-right: 3rem;
+		}
+		&__customers {
+			margin-top: 3rem;
+			justify-content: start;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.hero {
+		padding: 6.6rem 0;
+		&__description {
+			margin: 3rem 0;
+			font-size: 2.5rem;
+		}
+		&__picture {
+			width: 100%;
 		}
 	}
 }

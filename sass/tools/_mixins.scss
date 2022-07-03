@@ -1,0 +1,30 @@
+@mixin button {
+	display: inline-block;
+	margin-bottom: 2rem;
+	padding: 1rem 2rem;
+	border-radius: 11px;
+	text-decoration: none;
+	font-size: 1.4rem;
+	font-weight: 500;
+	margin-right: 1rem;
+}
+
+@mixin grid {
+	display: grid;
+}
+
+@mixin grid--1-cols {
+	grid-template-columns: 1fr;
+}
+
+@mixin grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@mixin grid--3-cols {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@mixin grid--4-cols {
+	grid-template-columns: repeat(4, 1fr);
+}

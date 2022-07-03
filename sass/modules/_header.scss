@@ -42,3 +42,12 @@
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.header {
+		padding: 3rem;
+		&__burger {
+			display: none;
+		}
+	}
+}

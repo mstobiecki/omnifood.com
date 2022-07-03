@@ -39,3 +39,22 @@
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.navigation {
+		position: static;
+		width: auto;
+		height: auto;
+		opacity: 1;
+		transform: translateX(0);
+		pointer-events: auto;
+		visibility: visible;
+		z-index: 0;
+		background-color: transparent;
+		&__link {
+			display: inline-block;
+			margin: 0 1.2rem;
+			font-size: 2rem;
+		}
+	}
+}
