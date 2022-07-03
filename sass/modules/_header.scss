@@ -1,0 +1,21 @@
+.header {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: $light-background;
+	&__logo {
+		height: 2rem;
+	}
+	&__burger {
+		padding: 1rem;
+		background: none;
+		border: none;
+		z-index: 200;
+		font-size: 2.8rem;
+		&__icon[name='close-outline'] {
+			display: none;
+		}
+	}
+}

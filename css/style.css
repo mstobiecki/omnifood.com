@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  -webkit-box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+          box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--1-cols {
+  grid-template-columns: 1fr;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.first-heading {
+  color: #222;
+  font-size: 3.3rem;
+  padding: 2rem;
+}
+
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  background-color: #fdf2e9;
+}
+.header__logo {
+  height: 2rem;
+}
+.header__burger {
+  padding: 1rem;
+  background: none;
+  border: none;
+  z-index: 200;
+  font-size: 2.8rem;
+}
+.header__burger__icon[name=close-outline] {
+  display: none;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.97);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 100;
+  opacity: 0;
+  -webkit-transform: translateX(102%);
+          transform: translateX(102%);
+  pointer-events: none;
+  visibility: hidden;
+}
+.navigation--open {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  pointer-events: auto;
+  visibility: visible;
+}
+.navigation__items {
+  list-style: none;
+}
+.navigation__link {
+  display: block;
+  margin: 2rem 0;
+  text-decoration: none;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #333;
+}
+.navigation__link--cta {
+  margin-top: 3rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 11px;
+  color: #fff;
+  background-color: #cf711f;
+}/*# sourceMappingURL=style.css.map */
