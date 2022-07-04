@@ -1,0 +1,29 @@
+.testimonials {
+	background-color: $light-background;
+	padding: 2rem;
+	&__card {
+		margin: 2rem 0;
+	}
+	&__image {
+		margin-bottom: 1rem;
+		width: 20%;
+		border-radius: 50%;
+	}
+	&__text {
+		margin-bottom: 1rem;
+		font-size: 1.4rem;
+		line-height: 1.8;
+	}
+	&__name {
+		font-size: 1.2rem;
+	}
+	&__gallery {
+		@include grid;
+		@include grid--3-cols;
+		row-gap: 0.5rem;
+		column-gap: 0.5rem;
+	}
+	&__food {
+		width: 100%;
+	}
+}

@@ -659,4 +659,39 @@ body {
     margin-top: 0;
     font-size: 1.6rem;
   }
+}
+.testimonials {
+  background-color: #fdf2e9;
+  padding: 2rem;
+}
+.testimonials__card {
+  margin: 2rem 0;
+}
+.testimonials__image {
+  margin-bottom: 1rem;
+  width: 20%;
+  border-radius: 50%;
+}
+.testimonials__text {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+.testimonials__name {
+  font-size: 1.2rem;
+}
+.testimonials__gallery {
+  display: grid;
+  row-gap: 6.6rem;
+  -webkit-column-gap: 2.2rem;
+     -moz-column-gap: 2.2rem;
+          column-gap: 2.2rem;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 0.5rem;
+  -webkit-column-gap: 0.5rem;
+     -moz-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+.testimonials__food {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
