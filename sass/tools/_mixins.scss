@@ -11,6 +11,8 @@
 
 @mixin grid {
 	display: grid;
+	row-gap: 6.6rem;
+	column-gap: 2.2rem;
 }
 
 @mixin grid--1-cols {
