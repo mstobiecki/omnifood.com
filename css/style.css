@@ -105,13 +105,21 @@ body {
   }
 }
 @media (min-width: 1200px) {
+  .orange-button,
+.white-button {
+    font-size: 2.2rem;
+  }
+
   .first-heading {
     font-size: 4.5rem;
   }
 
-  .orange-button,
-.white-button {
-    font-size: 2.2rem;
+  .second-heading {
+    font-size: 4.2rem;
+  }
+
+  .third-heading {
+    font-size: 3rem;
   }
 }
 .header {
@@ -518,5 +526,14 @@ body {
   .how__description {
     font-size: 1.8rem;
     line-height: 1.6;
+  }
+}
+@media (min-width: 1200px) {
+  .how__number {
+    font-size: 9rem;
+  }
+  .how__description {
+    font-size: 2rem;
+    line-height: 1.8;
   }
 }/*# sourceMappingURL=style.css.map */

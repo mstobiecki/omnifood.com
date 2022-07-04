@@ -89,11 +89,17 @@ body {
 }
 
 @media (min-width: 1200px) {
-	.first-heading {
-		font-size: 4.5rem;
-	}
 	.orange-button,
 	.white-button {
 		font-size: 2.2rem;
+	}
+	.first-heading {
+		font-size: 4.5rem;
+	}
+	.second-heading {
+		font-size: 4.2rem;
+	}
+	.third-heading {
+		font-size: 3rem;
 	}
 }

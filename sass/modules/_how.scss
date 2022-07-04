@@ -86,3 +86,15 @@
 		}
 	}
 }
+
+@media (min-width: 1200px) {
+	.how {
+		&__number {
+			font-size: 9rem;
+		}
+		&__description {
+			font-size: 2rem;
+			line-height: 1.8;
+		}
+	}
+}
