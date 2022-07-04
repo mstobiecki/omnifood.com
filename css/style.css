@@ -733,4 +733,86 @@ body {
   .testimonials__name {
     font-size: 1.6rem;
   }
+}
+.pricing__card {
+  position: relative;
+  padding: 4rem 2rem;
+  overflow: hidden;
+}
+.pricing__card--start {
+  margin-bottom: 6rem;
+  border: 3px solid #fdf2e9;
+  border-radius: 11px;
+}
+.pricing__card--complete {
+  background-color: #fdf2e9;
+  border-radius: 11px;
+}
+.pricing__card--complete::after {
+  position: absolute;
+  content: "Best value";
+  top: 5%;
+  right: -20%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  background-color: #ffd43b;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem 6rem;
+}
+.pricing__header {
+  text-align: center;
+}
+.pricing__heading {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  color: #cf711f;
+  text-transform: uppercase;
+}
+.pricing__currency {
+  margin-right: 0.5rem;
+  font-size: 2.5rem;
+}
+.pricing__cash {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.pricing__description {
+  margin-bottom: 5rem;
+  font-size: 1.4rem;
+  color: #6f6f6f;
+}
+.pricing__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+.pricing__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  font-size: 1.7rem;
+}
+.pricing__icon {
+  font-size: 3rem;
+  color: #cf711f;
+}
+.pricing__button {
+  margin-top: 2rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
