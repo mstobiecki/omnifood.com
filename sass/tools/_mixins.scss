@@ -11,8 +11,6 @@
 
 @mixin grid {
 	display: grid;
-	row-gap: 6.6rem;
-	column-gap: 2.2rem;
 }
 
 @mixin grid--1-cols {
@@ -29,6 +27,14 @@
 
 @mixin grid--4-cols {
 	grid-template-columns: repeat(4, 1fr);
+}
+
+@mixin grid--5-cols {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+@mixin grid--6-cols {
+	grid-template-columns: repeat(6, 1fr);
 }
 
 @mixin radiusOnPhone {

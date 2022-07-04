@@ -266,10 +266,6 @@ body {
 }
 .hero .container {
   display: grid;
-  row-gap: 6.6rem;
-  -webkit-column-gap: 2.2rem;
-     -moz-column-gap: 2.2rem;
-          column-gap: 2.2rem;
   grid-template-columns: 1fr;
 }
 .hero__picture {
@@ -500,10 +496,6 @@ body {
 @media (min-width: 576px) {
   .how .container {
     display: grid;
-    row-gap: 6.6rem;
-    -webkit-column-gap: 2.2rem;
-       -moz-column-gap: 2.2rem;
-            column-gap: 2.2rem;
     grid-template-columns: repeat(2, 1fr);
   }
   .how__box--first {
@@ -620,10 +612,6 @@ body {
 @media (min-width: 576px) {
   .meals .container {
     display: grid;
-    row-gap: 6.6rem;
-    -webkit-column-gap: 2.2rem;
-       -moz-column-gap: 2.2rem;
-            column-gap: 2.2rem;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 0;
   }
@@ -682,10 +670,6 @@ body {
 }
 .testimonials__gallery {
   display: grid;
-  row-gap: 6.6rem;
-  -webkit-column-gap: 2.2rem;
-     -moz-column-gap: 2.2rem;
-          column-gap: 2.2rem;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 0.5rem;
   -webkit-column-gap: 0.5rem;
@@ -694,4 +678,30 @@ body {
 }
 .testimonials__food {
   width: 100%;
+}
+
+@media (min-width: 576px) {
+  .testimonials__opinion {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 4rem;
+       -moz-column-gap: 4rem;
+            column-gap: 4rem;
+  }
+  .testimonials__text {
+    font-size: 1.5rem;
+  }
+  .testimonials__name {
+    font-size: 1.4rem;
+  }
+  .testimonials__gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .testimonials__item:nth-last-child(1) {
+    display: none;
+  }
+  .testimonials__item:nth-last-child(2) {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
