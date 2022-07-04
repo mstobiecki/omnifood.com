@@ -50,3 +50,20 @@
 		text-align: center;
 	}
 }
+
+@media (min-width: 576px) {
+	.meals {
+		.container {
+			@include grid;
+			@include grid--2-cols;
+			row-gap: 0;
+		}
+		&__diets {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			grid-column: 1/-1;
+		}
+	}
+}
