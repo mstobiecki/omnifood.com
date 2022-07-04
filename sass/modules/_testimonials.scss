@@ -53,3 +53,22 @@
 		}
 	}
 }
+
+@media (min-width: 922px) {
+	.testimonials {
+		&__container {
+			@include grid;
+			@include grid--2-cols;
+			column-gap: 4rem;
+		}
+		&__gallery {
+			@include grid--3-cols;
+		}
+		&__item:nth-last-child(1) {
+			display: block;
+		}
+		&__item:nth-last-child(2) {
+			display: block;
+		}
+	}
+}

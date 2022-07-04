@@ -704,4 +704,22 @@ body {
   .testimonials__item:nth-last-child(2) {
     display: none;
   }
+}
+@media (min-width: 922px) {
+  .testimonials__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 4rem;
+       -moz-column-gap: 4rem;
+            column-gap: 4rem;
+  }
+  .testimonials__gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .testimonials__item:nth-last-child(1) {
+    display: block;
+  }
+  .testimonials__item:nth-last-child(2) {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
