@@ -95,6 +95,15 @@ body {
     font-size: 1.8rem;
   }
 }
+@media (min-width: 992px) {
+  .second-heading {
+    font-size: 3.5rem;
+  }
+
+  .third-heading {
+    font-size: 2.6rem;
+  }
+}
 @media (min-width: 1200px) {
   .first-heading {
     font-size: 4.5rem;
@@ -500,5 +509,14 @@ body {
   .how__text--third {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+}
+@media (min-width: 992px) {
+  .how__number {
+    font-size: 7rem;
+  }
+  .how__description {
+    font-size: 1.8rem;
+    line-height: 1.6;
   }
 }/*# sourceMappingURL=style.css.map */

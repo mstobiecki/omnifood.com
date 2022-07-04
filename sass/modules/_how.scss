@@ -74,3 +74,15 @@
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.how {
+		&__number {
+			font-size: 7rem;
+		}
+		&__description {
+			font-size: 1.8rem;
+			line-height: 1.6;
+		}
+	}
+}
