@@ -49,6 +49,15 @@
 		font-size: 2.9rem;
 		text-align: center;
 	}
+	&__text {
+		display: block;
+		margin-top: 5rem;
+		padding: 0.5rem;
+		font-size: 1.5rem;
+		text-align: center;
+		text-decoration: none;
+		color: $dark-orange;
+	}
 }
 
 @media (min-width: 576px) {
@@ -64,6 +73,23 @@
 			justify-content: center;
 			align-items: center;
 			grid-column: 1/-1;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.meals {
+		.container {
+			@include grid--3-cols;
+			column-gap: 4rem;
+		}
+		&__diets {
+			display: block;
+			grid-column: 3/4;
+		}
+		&__text {
+			margin-top: 0;
+			font-size: 1.6rem;
 		}
 	}
 }

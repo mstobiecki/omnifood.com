@@ -607,6 +607,15 @@ body {
   font-size: 2.9rem;
   text-align: center;
 }
+.meals__text {
+  display: block;
+  margin-top: 5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #cf711f;
+}
 
 @media (min-width: 576px) {
   .meals .container {
@@ -633,5 +642,21 @@ body {
         -ms-flex-align: center;
             align-items: center;
     grid-column: 1/-1;
+  }
+}
+@media (min-width: 992px) {
+  .meals .container {
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 4rem;
+       -moz-column-gap: 4rem;
+            column-gap: 4rem;
+  }
+  .meals__diets {
+    display: block;
+    grid-column: 3/4;
+  }
+  .meals__text {
+    margin-top: 0;
+    font-size: 1.6rem;
   }
 }/*# sourceMappingURL=style.css.map */
