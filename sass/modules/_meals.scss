@@ -1,0 +1,52 @@
+.meals {
+	&__card {
+		margin-bottom: 7rem;
+		box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+		border-radius: 11px;
+		overflow: hidden;
+	}
+	&__image {
+		width: 100%;
+	}
+	&__content {
+		padding: 2rem;
+	}
+	&__tag {
+		@include mealsTag;
+		&--green {
+			background-color: $color-green;
+		}
+		&--yellow {
+			background-color: $color-yellow;
+		}
+	}
+	&__name {
+		margin-bottom: 2rem;
+		font-size: 2.5rem;
+		font-weight: 700;
+		color: $black-font;
+	}
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 1.4rem;
+		list-style: none;
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		font-size: 1.6rem;
+	}
+	&__icon {
+		font-size: 2.3rem;
+		color: $dark-orange;
+	}
+	&__title {
+		margin-bottom: 3rem;
+		color: $black-font;
+		font-weight: 700;
+		font-size: 2.9rem;
+		text-align: center;
+	}
+}
