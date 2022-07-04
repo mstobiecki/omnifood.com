@@ -59,6 +59,20 @@ body {
   color: #222;
 }
 
+.subheading {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #e67e22;
+}
+
+.heading__text {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
 .orange-button {
   background-color: #cf711f;
   color: #fff;
@@ -416,10 +430,6 @@ body {
     height: 2.8rem;
   }
 }
-.how__heading {
-  margin: 0 auto;
-  max-width: 120rem;
-}
 .how__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,14 +441,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-.how__text--special {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #e67e22;
 }
 .how__number {
   font-size: 5rem;
