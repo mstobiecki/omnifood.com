@@ -722,4 +722,15 @@ body {
   .testimonials__item:nth-last-child(2) {
     display: block;
   }
+}
+@media (min-width: 1200px) {
+  .testimonials__gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .testimonials__text {
+    font-size: 1.8rem;
+  }
+  .testimonials__name {
+    font-size: 1.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */

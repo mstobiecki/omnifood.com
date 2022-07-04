@@ -72,3 +72,17 @@
 		}
 	}
 }
+
+@media (min-width: 1200px) {
+	.testimonials {
+		&__gallery {
+			@include grid--4-cols;
+		}
+		&__text {
+			font-size: 1.8rem;
+		}
+		&__name {
+			font-size: 1.6rem;
+		}
+	}
+}
