@@ -1,0 +1,58 @@
+.contact {
+	.second-heading {
+		color: $brown-color;
+		margin: 2rem 0;
+	}
+	&__container {
+		background-color: #e67e22;
+		box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+		background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+		text-align: center;
+		border-radius: 11px;
+		overflow: hidden;
+	}
+	&__image {
+		height: 60vh;
+		background-image: linear-gradient(
+				to right bottom,
+				rgba(235, 151, 78, 0.35),
+				rgba(235, 125, 34, 0.35)
+			),
+			url('./../img/eating.jpg');
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+	}
+	&__text {
+		margin-top: 1rem;
+		padding: 0 1.5rem;
+		color: $brown-color;
+	}
+	&__description {
+		margin-bottom: 2rem;
+		font-size: 1.4rem;
+		line-height: 1.6;
+	}
+	&__box {
+		margin-bottom: 1.2rem;
+	}
+	&__label,
+	&__select {
+		margin-bottom: 1rem;
+		display: block;
+		font-size: 1.4rem;
+	}
+	&__input,
+	&__select {
+		display: block;
+		margin-bottom: 1rem;
+		padding: 0.5rem;
+		width: 100%;
+		border-radius: 9px;
+		border: none;
+	}
+	&__button {
+		border: none;
+		background-color: $brown-color;
+	}
+}

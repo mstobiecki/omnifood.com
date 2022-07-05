@@ -916,4 +916,56 @@ body {
   .feature .container {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+.contact .second-heading {
+  color: #45260a;
+  margin: 2rem 0;
+}
+.contact__container {
+  background-color: #e67e22;
+  -webkit-box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#eb984e), to(#e67e22));
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  text-align: center;
+  border-radius: 11px;
+  overflow: hidden;
+}
+.contact__image {
+  height: 60vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(235, 151, 78, 0.35)), to(rgba(235, 125, 34, 0.35))), url("./../img/eating.jpg");
+  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(235, 125, 34, 0.35)), url("./../img/eating.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.contact__text {
+  margin-top: 1rem;
+  padding: 0 1.5rem;
+  color: #45260a;
+}
+.contact__description {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.contact__box {
+  margin-bottom: 1.2rem;
+}
+.contact__label, .contact__select {
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 1.4rem;
+}
+.contact__input, .contact__select {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 9px;
+  border: none;
+}
+.contact__button {
+  border: none;
+  background-color: #45260a;
 }/*# sourceMappingURL=style.css.map */
