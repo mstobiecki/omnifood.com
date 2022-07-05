@@ -840,4 +840,31 @@ body {
     top: 5%;
     right: -22%;
   }
+}
+@media (min-width: 768px) {
+  .pricing__heading {
+    text-align: center;
+  }
+  .pricing__card {
+    width: 70%;
+  }
+  .pricing__card--complete::after {
+    top: 5%;
+    right: -20%;
+  }
+}
+@media (min-width: 992px) {
+  .pricing__card {
+    width: 70%;
+  }
+  .pricing__card--complete::after {
+    top: 5%;
+    right: -16%;
+  }
+}
+@media (min-width: 1200px) {
+  .pricing__card--complete::after {
+    top: 6%;
+    right: -10%;
+  }
 }/*# sourceMappingURL=style.css.map */

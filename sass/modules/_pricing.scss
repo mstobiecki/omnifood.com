@@ -103,3 +103,40 @@
 	}
 }
 
+@media (min-width: 768px) {
+	.pricing {
+		&__heading {
+			text-align: center;
+		}
+		&__card {
+			width: 70%;
+			&--complete::after {
+				top: 5%;
+				right: -20%;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.pricing {
+		&__card {
+			width: 70%;
+			&--complete::after {
+				top: 5%;
+				right: -16%;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.pricing {
+		&__card {
+			&--complete::after {
+				top: 6%;
+				right: -10%;
+			}
+		}
+	}
+}
