@@ -903,4 +903,12 @@ body {
 .feature__text {
   font-size: 1.5rem;
   line-height: 1.6;
+}
+
+@media (min-width: 576px) {
+  .feature .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+  }
 }/*# sourceMappingURL=style.css.map */

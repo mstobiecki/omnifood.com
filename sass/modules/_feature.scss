@@ -22,3 +22,13 @@
 		line-height: 1.6;
 	}
 }
+
+@media (min-width: 576px) {
+	.feature {
+		.container {
+			@include grid;
+			@include grid--2-cols;
+			justify-self: center;
+		}
+	}
+}
