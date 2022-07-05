@@ -16,7 +16,7 @@
 			position: absolute;
 			content: 'Best value';
 			top: 5%;
-			right: -20%;
+			right: -17%;
 			transform: rotate(40deg);
 			background-color: $color-yellow;
 			font-size: 1.5rem;
@@ -70,3 +70,36 @@
 		text-align: center;
 	}
 }
+
+@media (min-width: 375px) {
+	.pricing {
+		&__card {
+			&--complete::after {
+				top: 7%;
+				right: -11%;
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.pricing {
+		.container {
+			@include grid;
+			@include grid--2-cols;
+			justify-items: center;
+		}
+		&__heading {
+			text-align: left;
+		}
+		&__card {
+			margin-bottom: 0rem;
+			margin: 0 2rem;
+			&--complete::after {
+				top: 5%;
+				right: -22%;
+			}
+		}
+	}
+}
+
