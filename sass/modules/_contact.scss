@@ -56,3 +56,17 @@
 		background-color: $brown-color;
 	}
 }
+
+@media (min-width: 576px) {
+	.contact {
+		&__container {
+			@include grid;
+			@include grid--2-cols;
+		}
+		&__image {
+			height: 100%;
+			grid-column: 2/3;
+			grid-row: 1/-1;
+		}
+	}
+}
