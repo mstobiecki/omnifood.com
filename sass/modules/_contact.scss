@@ -70,3 +70,14 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.contact {
+		&__description,
+		&__label,
+		&__input,
+		&__select {
+			font-size: 1.6rem;
+		}
+	}
+}

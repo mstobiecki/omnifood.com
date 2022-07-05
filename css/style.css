@@ -980,4 +980,9 @@ body {
     grid-column: 2/3;
     grid-row: 1/-1;
   }
+}
+@media (min-width: 768px) {
+  .contact__description, .contact__label, .contact__input, .contact__select {
+    font-size: 1.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */
