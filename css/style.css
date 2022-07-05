@@ -911,4 +911,9 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-self: center;
   }
+}
+@media (min-width: 768px) {
+  .feature .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }/*# sourceMappingURL=style.css.map */
