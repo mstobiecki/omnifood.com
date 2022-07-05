@@ -1,0 +1,24 @@
+.feature {
+	&__box {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		margin: 0 2rem 4rem 2rem;
+	}
+	&__icon {
+		padding: 1rem;
+		font-size: 3rem;
+		color: $dark-orange;
+		background-color: $light-background;
+		border-radius: 50%;
+	}
+	&__title {
+		font-size: 2rem;
+		font-weight: 500;
+		color: $black-font;
+	}
+	&__text {
+		font-size: 1.5rem;
+		line-height: 1.6;
+	}
+}
