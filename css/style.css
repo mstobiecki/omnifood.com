@@ -816,6 +816,12 @@ body {
   margin-top: 2rem;
   text-align: center;
 }
+.pricing__info {
+  margin: 4rem;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
 
 @media (min-width: 375px) {
   .pricing__card--complete::after {
@@ -839,6 +845,9 @@ body {
   .pricing__card--complete::after {
     top: 5%;
     right: -22%;
+  }
+  .pricing__info {
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 768px) {
