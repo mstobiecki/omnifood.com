@@ -84,3 +84,23 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.footer {
+		.container {
+			@include grid;
+			@include grid--8-cols;
+		}
+		&__box {
+			grid-column: span 1;
+		}
+		&__info {
+			grid-row: 1/2;
+			grid-column: 3/5;
+		}
+		&__media {
+			grid-row: 1/2;
+			grid-column: 1/3;
+		}
+	}
+}

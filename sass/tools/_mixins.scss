@@ -36,6 +36,9 @@
 @mixin grid--6-cols {
 	grid-template-columns: repeat(6, 1fr);
 }
+@mixin grid--8-cols {
+	grid-template-columns: repeat(8, 1fr);
+}
 
 @mixin radiusOnPhone {
 	position: absolute;
