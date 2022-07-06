@@ -100,6 +100,9 @@
 			color: $brown-color;
 			margin: 4rem 0;
 		}
+		&__text {
+			margin-bottom: 4rem;
+		}
 		&__form {
 			@include grid;
 			@include grid--2-cols;
@@ -123,11 +126,10 @@
 			padding: 1rem 2rem;
 		}
 		&__button {
-			padding: 1rem 2rem;
 			font-size: 1.8rem;
 			align-self: end;
 			display: inline-block;
-			border-radius: 11px;
+			border-radius: 9px;
 		}
 	}
 }

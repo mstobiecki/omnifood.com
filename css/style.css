@@ -1005,6 +1005,9 @@ body {
     color: #45260a;
     margin: 4rem 0;
   }
+  .contact__text {
+    margin-bottom: 4rem;
+  }
   .contact__form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1028,11 +1031,10 @@ body {
     padding: 1rem 2rem;
   }
   .contact__button {
-    padding: 1rem 2rem;
     font-size: 1.8rem;
     -ms-flex-item-align: end;
         align-self: end;
     display: inline-block;
-    border-radius: 11px;
+    border-radius: 9px;
   }
 }/*# sourceMappingURL=style.css.map */
