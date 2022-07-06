@@ -1048,6 +1048,7 @@ body {
   -webkit-column-gap: 2rem;
      -moz-column-gap: 2rem;
           column-gap: 2rem;
+  row-gap: 2rem;
 }
 .footer__logo {
   height: 1.8rem;
@@ -1113,4 +1114,22 @@ body {
 .footer__link {
   text-decoration: none;
   color: #767676;
+}
+
+@media (min-width: 576px) {
+  .footer__title {
+    font-size: 1.8rem;
+  }
+  .footer__item {
+    font-size: 1.4rem;
+  }
+  .footer__address {
+    font-size: 1.4rem;
+  }
+  .footer__icon {
+    font-size: 1.8rem;
+  }
+  .footer__copyright {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

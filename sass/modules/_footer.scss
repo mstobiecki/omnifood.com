@@ -3,6 +3,7 @@
 		@include grid;
 		@include grid--6-cols;
 		column-gap: 2rem;
+		row-gap: 2rem;
 	}
 	border-top: 1px solid $grey;
 	color: $footer-color;
@@ -61,5 +62,25 @@
 	&__link {
 		text-decoration: none;
 		color: $footer-color;
+	}
+}
+
+@media (min-width: 576px) {
+	.footer {
+		&__title {
+			font-size: 1.8rem;
+		}
+		&__item {
+			font-size: 1.4rem;
+		}
+		&__address {
+			font-size: 1.4rem;
+		}
+		&__icon {
+			font-size: 1.8rem;
+		}
+		&__copyright {
+			font-size: 1.4rem;
+		}
 	}
 }
