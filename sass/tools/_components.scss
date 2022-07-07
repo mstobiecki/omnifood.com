@@ -74,13 +74,23 @@ body {
 .orange-button {
 	background-color: $dark-orange;
 	color: $white-font;
+	transition: background-color 0.3s;
 	@include button;
+}
+
+.orange-button:hover {
+	background-color: $hover-color;
 }
 
 .white-button {
 	background-color: $white-background;
 	color: $black-font;
+	transition: box-shadow 0.3s;
 	@include button;
+}
+
+.white-button:hover {
+	box-shadow: inset 0 0 0 3px #fff;
 }
 
 @media (min-width: 768px) {
