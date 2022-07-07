@@ -52,6 +52,10 @@
 	}
 }
 
+.navigation--open .header__burger__icon[name='close-outline'] {
+	display: block;
+}
+
 @media (min-width: 992px) {
 	.navigation {
 		position: static;

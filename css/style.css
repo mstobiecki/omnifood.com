@@ -26,6 +26,14 @@ body {
   overflow-x: hidden;
 }
 
+.hide--burger {
+  display: none;
+}
+
+.active--burger {
+  display: block;
+}
+
 .container {
   margin: 0 auto;
   width: 100%;
@@ -176,9 +184,6 @@ body {
   font-size: 2.8rem;
   color: #333;
 }
-.header__burger__icon[name=close-outline] {
-  display: none;
-}
 
 @media (min-width: 576px) {
   .header__logo {
@@ -267,6 +272,10 @@ body {
 }
 .navigation__link:hover {
   color: #cf711f;
+}
+
+.navigation--open .header__burger__icon[name=close-outline] {
+  display: block;
 }
 
 @media (min-width: 992px) {
